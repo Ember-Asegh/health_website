@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("../images_and_media/Purple whimsical wallpaper.jpeg"); */
+    background-image: url("../images/purple_whimsy_houses.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.para {
+    font-family:"Edu NSW ACT Foundation", cursive;
+    font-size: 20px;
+    color:#F3E8FF;
+    
+}
+
+.big_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 100px;
+    color:#FFE08B;
+    font-family:"Edu NSW ACT Foundation", cursive;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid ;
+    border-color:#B36DDF;
+    background-color:#231034;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ 
+footer {
+    font-family:"Edu NSW ACT Foundation", cursive;
+    font-size: 20px;
+    color:#F3E8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#paragraph1 {
+
+    padding: 100px 500px 20px 0px;
+    
+}
+
+#paragraph2 {
+
+    padding: 100px 0px 20px 0px;
+    
+}
+
+a:link {
+    color: #FFE08B;;
+}
+a:visited {
+    color: #F8B2B2;
+}
+a:hover {
+    color: #8B639B
+}
+a:active {
+    color: #C5B3D3
+}
+
+
+
+
+

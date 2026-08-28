@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("../images_and_media/Purple whimsical wallpaper.jpeg"); */
+    background-image: url("../images/clock.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    font-family:"Edu NSW ACT Foundation", cursive;
+    font-size: 20px;
+    color:#F5EBE1;
+    
+}
+
+.big_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 100px;
+    color:#9E6F38;
+    font-family:"Edu NSW ACT Foundation", cursive;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid ;
+    border-color:#D4A359;
+    background-color:#261B14;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ 
+
+
+
+
+
+

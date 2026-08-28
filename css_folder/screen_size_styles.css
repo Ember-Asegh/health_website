@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: borderbox;
+}  
+:root {
+    --backgroundColor: blanchedalmond;
+    --backColor: darkgoldenrod;
+    --textColor: saddlebrown;
+    color:darkgoldenrod
+
+}
+
+body {
+    font-family:"Edu VIC WA NT Handwriting", cursive;
+    line-height: 1.5;
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--backColor);
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+    background-color: var(--backColor);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:var(--textColor);
+    background-color: var(--backgroundColor);
+    font-family: "Sofia", sans-serif;
+    margin: 30px;
+    padding: 10px;
+}
+
+.btn {
+    font-family:"Edu VIC WA NT Handwriting", cursive;
+    padding: 5px;
+    font-size: 15px;
+    background-color: burlywood;
+    margin: 20px;
+    /* border-color: burlywood; */
+
+}
+
+.landing_banner {
+    height: 88vh;
+    display: flex;
+    background: linear-gradient(#1d2b6480, #f8cdda80), url("../images_and_media/golden_petals.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+
+}
+
+.landing_banner {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    color: black;
+    padding-left: 70px;
+    font-size: 50px;
+    padding-top: 15px;
+}
+
+
+.banner {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.services {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.services .img img {
+    width: 30%;
+    height: 30%;
+
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.box {
+    border: 1px solid black;
+    padding: 40px 200px 0px 80px;
+    color:cornflowerblue;
+    background-color:saddlebrown;
+    height: 300px;
+    width: 300px;
+    margin: 60px;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+}
+
+/* h1, h2, h3 {
+    color:palevioletred;
+    background-color:slategrey;
+    margin: 10px;
+    width: 380px;
+    padding: 10px;
+} */
+
+body {
+    background-image: url("images_and_media/purple_hypno.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+    margin: 50px;
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.box1 {
+    color:midnightblue;
+    background-color: lavenderblush;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    /* padding-left: 40px;
+    padding-top: 80px; */
+    padding: 80px 0px 0px 0px;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+}

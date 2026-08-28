@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: ivory;
+}
+.navi {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+    padding: 40px 20px 20px 20px;
+    background-color:#afd69b
+
+}
+
+.logo {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 0;
+}
+
+.logo-eco {
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+ul {
+    padding-top: 8px;
+    display: flex;
+    list-style-type: none;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}
+
+button {
+    background-color: #8ca19e;
+
+    border-radius: 15px;
+}
+.search-btn {
+    height: 30px;
+    width: 60px;
+    
+}
+
+.login-btn {
+    height: 30px;
+    width: 150px;
+}
+
+.shop-btn, .learn-btn {
+    width: 80px;
+    height: 30px;
+}
+
+
+
+.search-input {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.sections {
+    margin-right: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.landing-banner {
+    height: 800px;
+    background: linear-gradient(#5d5e5c80, #cfd0cf70), url(../images/circle_of_life.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    padding-left: 100px;
+    
+}
+
+.banner {
+    font-size: 20px;
+} 
+
+.heading {
+    padding-top: 200px;
+    font-size: 60px;
+}
+
+.banner, .heading, .about-us-title, .straw, .paragraph {
+    padding-bottom: 20px;
+}
+
+.services {
+    /* background-color: #8fb6ab; */
+    background-color:ivory;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    
+}
+.products {
+    margin: 20px 20px 0 20px;
+    /* border: 1px solid black; */
+    height: 250px;
+    width:400px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:#a6dbbc;
+    
+
+}
+
+img {
+    border: none;
+}
+
+.ending {
+    display:flex;
+    margin: 30px;
+    background-color: #b7cc9d;
+    height: 800px;
+}
+
+.about-us {
+    padding-left: 50px;
+    padding-top: 150px;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+}
+
+
+.ending-img {
+    width: 700px;
+}
+
+
+footer {
+    text-align: center;
+
+    background-color:#8fb6ab;
+    height: 70px;
+    padding-top: 30px;
+
+    padding-bottom: 5px;
+}
+
+

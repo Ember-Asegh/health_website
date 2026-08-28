@@ -1,0 +1,18 @@
+
+
+button {
+    padding: 10px;
+    margin: 10px;
+    width:100px; 
+    color:olive;
+}
+
+section {
+    height: 800px;
+}
+
+nav {
+    background-color: plum; 
+    height: 60px; 
+    width:500px;
+}
